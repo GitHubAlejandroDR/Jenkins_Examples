@@ -6,6 +6,12 @@ pipeline {
 
   }
   stages {
+    stage('Checkout') {
+      steps {
+        sh 'echo "Todo ok"'
+      }
+    }
+  stages {
     stage('Test') {
       steps {
         sh 'echo "Todo ok"'
